@@ -1,6 +1,5 @@
 package org.algorithms.intermediary;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class GuessANumber {
