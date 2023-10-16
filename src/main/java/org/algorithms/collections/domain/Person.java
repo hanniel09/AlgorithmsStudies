@@ -19,6 +19,11 @@ public class Person {
        return credential != null && credential.equals(person.credential);
     }
 
+    @Override
+    public int hashCode() {
+        return credential == null ? 0 : this.credential.hashCode();
+    }
+
     public String getCredential() {
         return credential;
     }
