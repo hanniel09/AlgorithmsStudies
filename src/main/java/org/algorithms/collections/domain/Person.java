@@ -24,6 +24,14 @@ public class Person {
         return credential == null ? 0 : this.credential.hashCode();
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "credential='" + credential + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
     public String getCredential() {
         return credential;
     }
